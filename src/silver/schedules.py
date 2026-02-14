@@ -22,6 +22,8 @@ def silver_schedules():
         )
         .select(
             col("train_number"),
+    
+            to_timestamp("stop.scheduledTime").cast("date").alias("service_date"),
             col("train_type"),
             col("stop.stationShortCode").alias("station_code"),
             col("stop.type").alias("stop_type"),

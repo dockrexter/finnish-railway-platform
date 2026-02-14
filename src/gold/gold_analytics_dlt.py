@@ -5,6 +5,8 @@ from pyspark.sql.functions import col, avg, count, sum, when, abs, round, lit
 # 1. DIMENSION: Stations
 # Target: gold_rail.dim_stations
 # ==========================================
+
+
 @dlt.table(
     name="gold_rail.dim_stations",
     comment="Star Schema Dimension: Stations"
