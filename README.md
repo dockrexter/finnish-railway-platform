@@ -33,11 +33,11 @@ finnish-railway-platform/
     │       ├── bronze_schedules.ipynb
     │       └── bronze_stations.ipynb
     ├── silver/                 # DLT Processing Layer
-    │   └── dlt_pipeline/       # Modular DLT Python Code
-    │       ├── stations.py     # SCD2 Logic
-    │       ├── train_stops.py  # Flattening & Cleaning
-    │       ├── schedules.py    # Reference Data
-    │       └── silver_pipeline.py # Entry Point
+
+    │      ├── stations.py     # SCD2 Logic
+    │      ├── train_stops.py  # Flattening & Cleaning
+    │      ├── schedules.py    # Reference Data
+    │      └── silver_pipeline.py # Entry Point
     └── gold/                   # Analytics Layer
         └── gold_analytics_dlt.ipynb # Star Schema Transformations
 ```
