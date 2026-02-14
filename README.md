@@ -2,7 +2,7 @@
 
 A production-grade Data Lakehouse processing real-time train data from the Finnish Transport Agency ([Digitraffic API](https://www.digitraffic.fi/en/railway-traffic/)). Built on Databricks, implementing a Medallion Architecture with Delta Live Tables (DLT) for ETL and Star Schema analytics.
 
-###📋 Project Overview
+### 📋 Project Overview
 
 This project builds an end-to-end data platform to analyze train delays, cancellations, and schedule deviations in Finland. It handles real-time data streams and historical schedules to provide actionable insights.
 
